@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessorXmplRevisited.Model", "MessageProcessorXmplRevisited.Model\MessageProcessorXmplRevisited.Model.csproj", "{499BE2F3-7D8D-4801-8901-DBE36E800457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessorXmplRevisited.Handlers", "MessageProcessorXmplRevisited.Handlers\MessageProcessorXmplRevisited.Handlers.csproj", "{C7FC7E05-D2AF-4BB2-8A7A-A4E91041BFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessorXmplRevisited.Client", "MessageProcessorXmplRevisited.Client\MessageProcessorXmplRevisited.Client.csproj", "{1A11F9A8-A319-4051-BA6F-054FCA79F7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessorXmplRevisited.EmailManager", "MessageProcessorXmplRevisited.EmailManager\MessageProcessorXmplRevisited.EmailManager.csproj", "{459CE7ED-8E71-41BA-81CC-B43B9A0F1380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessorXmplRevisited.Contracts", "MessageProcessorXmplRevisited.Contracts\MessageProcessorXmplRevisited.Contracts.csproj", "{36C81CD9-A8F0-4DEC-80EC-8D112974085F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499BE2F3-7D8D-4801-8901-DBE36E800457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499BE2F3-7D8D-4801-8901-DBE36E800457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499BE2F3-7D8D-4801-8901-DBE36E800457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499BE2F3-7D8D-4801-8901-DBE36E800457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FC7E05-D2AF-4BB2-8A7A-A4E91041BFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FC7E05-D2AF-4BB2-8A7A-A4E91041BFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FC7E05-D2AF-4BB2-8A7A-A4E91041BFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FC7E05-D2AF-4BB2-8A7A-A4E91041BFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A11F9A8-A319-4051-BA6F-054FCA79F7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A11F9A8-A319-4051-BA6F-054FCA79F7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A11F9A8-A319-4051-BA6F-054FCA79F7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A11F9A8-A319-4051-BA6F-054FCA79F7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459CE7ED-8E71-41BA-81CC-B43B9A0F1380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459CE7ED-8E71-41BA-81CC-B43B9A0F1380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459CE7ED-8E71-41BA-81CC-B43B9A0F1380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459CE7ED-8E71-41BA-81CC-B43B9A0F1380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C81CD9-A8F0-4DEC-80EC-8D112974085F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C81CD9-A8F0-4DEC-80EC-8D112974085F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C81CD9-A8F0-4DEC-80EC-8D112974085F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C81CD9-A8F0-4DEC-80EC-8D112974085F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
