@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MessageProcessorXmplRevisited.Contracts
 {
-    public interface IMessageHandler<in T> where T : BaseMessage
+    public interface IMessageHandler<T> where T : BaseMessage
     {
         void Handle(T message);
     }
